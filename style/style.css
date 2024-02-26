@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+/**llamado a las tipografias por css**/
+/* 
+font-family: 'Poppins', sans-serif; 
+*/
+
+
+/* COLOR */
+/* 
+#B22222
+#8e1b1b
+#d17a7a
+#e0a7a7
+#f0d3d3
+#000000 
+*/
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    z-index: 1;
+}
+
+.top {
+    background-color: #B22222;
+}
+
+.navbar-toggler {
+
+    border-color: white;
+}
+
+.navbar-collapse {
+    margin-top: 15px;
+}
+
+.nav-item {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    background-color: #8e1b1b;
+}
+
+.navbar-nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sectionTitle{
+    color:#B22222;
+    font-size:xx-large;
+}
+
+.top{
+    z-index: 1;
+}
+.navbar{
+    z-index: 1;
+}
+
+.intro {
+    background-image: url(../images/fondoTop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -27px;
+    z-index: 2;
+}
+
+.portada {
+    background-color: rgb(181, 181, 182);
+    opacity: 0.9;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service1{
+    text-align: center;
+}
+
+.icon{
+    height: 100px;
+}
+
+.tarifas{
+    height: 100vh;
+}
+
+.about{
+    height: 100vh;
+    margin: auto;
+}
+.testimonios{
+    height: 100vh;
+}
+
+.testi{
+    text-align: center;
+}
+.reseñas{
+    width: 15rem;
+}
+
+.iconoInfo {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* WHATSAPP*/
+
+.whatsaap {
+    float: right;
+    position: sticky;
+    bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.whatsaap:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+
+.footer {
+
+    background-color: #B22222;
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        margin-top: -74px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        margin-top: -100px;
+    }
+}
