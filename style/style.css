@@ -104,10 +104,6 @@ nav {
     height: 100vh;
 }
 
-.about{
-    height: 100vh;
-    margin: auto;
-}
 .testimonios{
     height: 100vh;
 }
@@ -137,8 +133,6 @@ nav {
     transform: scale(1.2);
     transition: transform 0.3s ease;
 }
-
-
 
 .footer {
 
